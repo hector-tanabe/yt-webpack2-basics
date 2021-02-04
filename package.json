@@ -4,12 +4,12 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jala-bootcamp/yt-webpack2-basics.git"
+        "url": "git+https://github.com/hector-tanabe/yt-webpack2-basics.git"
     },
     "version": "0.0.0-alpha.0",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jala-bootcamp/yt-webpack2-basics/issues"
+        "url": "https://github.com/hector-tanabe/yt-webpack2-basics/issues"
     },
     "devDependencies": {
         "webpack": "^5.19.0",
@@ -18,7 +18,7 @@
     },
     "name": "yt-webpack2-basics",
     "publishConfig": {
-        "registry": "http://192.168.1.65:8081/repository/npm-private/"
+        "registry": "http://192.168.0.7:8081/repository/backend/"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,5 +28,5 @@
         "dist",
         "index.html"
     ],
-    "homepage": "https://github.com/jala-bootcamp/yt-webpack2-basics#readme"
+    "homepage": "https://github.com/hector-tanabe/yt-webpack2-basics#readme"
 }
