@@ -44,7 +44,6 @@ pipeline {
     }
 
     stage('Deploy') {
-      echo ('Deploy...)
     }
   }
 }
