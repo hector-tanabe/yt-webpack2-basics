@@ -11,8 +11,8 @@ pipeline {
   }
 
   environment {
-    NEXUS_REGISTRY_URL = 'http://192.168.1.65:8081/repository/npm-group/'
-    NEXUS_AUTH_TOKEN   = credentials('nexus-auth-token')
+    NEXUS_REGISTRY_URL = 'http://192.168.0.7:8081/repository/backend/'
+    NEXUS_AUTH_TOKEN   = credentials('12345')
   }
 
   stages {
